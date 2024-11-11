@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0;
+}
+
+.flex{
+
+    max-width: 1400;
+    padding: 3%;
+    margin: 0;
+}
+img {
+    width: 100vw;
+    height: 100vh;
+    background: url('./Portugal\ img.jpg');
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    padding: 60px 4px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+ nav {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li  {
+
+    display: inline-block;
+}
+li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+
+    color: white;
+}
+
+h1{
+
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%, -50%);
+   top: 41%;
+   
+   font-size: 11rem;
+}
+
+h2 {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   top: 51%;
+   font-size: 2rem;
+}
+
+button {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%, -50%);
+   top: 63%;
+   padding: 25px 150px;
+   background-color: transparent;
+   border: 2px solid #fff;
+   color: #fff;
+   font-size: 2rem;
+}

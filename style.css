@@ -6,6 +6,8 @@
 
 body {
     margin: 0;
+    background-image: url(./assets/portugal-noite.jpg);
+    background-size: cover;
 }
 
 .flex{
@@ -13,12 +15,6 @@ body {
     max-width: 1400;
     padding: 3%;
     margin: 0;
-}
-img {
-    width: 100vw;
-    height: 100vh;
-    background: url('./Portugal\ img.jpg');
-    background-size: cover;
 }
 
 header {
@@ -54,7 +50,7 @@ h1{
     position: absolute;
     top: 50%;
     left: 50%;
-   transform: translate(-50%, -50%);
+   transform: translate(-50%, -69%);
    top: 41%;
    
    font-size: 11rem;

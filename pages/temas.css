@@ -13,8 +13,8 @@ img {
 
 .flex {
 
-    max-width: 1280px;
-    margin: 0 auto;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 header {
@@ -46,3 +46,90 @@ ul {
     font-size: 2rem;
     
   }
+
+  h1 {
+
+    color: dodgerblue;
+    margin-left: 5rem;
+    margin-top: 7rem;
+    font-size: 3rem;
+  }
+
+  .historia img{
+
+    width: 20rem;
+    
+    margin-left: 4rem;
+    height: 15rem;
+
+  margin-top: 2rem; 
+ border-top-left-radius: 2rem;
+ border-bottom-right-radius: 2rem;
+  }
+
+  .turismo img {
+
+    width: 20rem;
+    margin-left: 6rem;
+    margin-top: 2rem;  
+    height: 15rem;
+  }
+
+  .cultura img {
+
+  width: 20rem;
+  margin-left: 6rem;
+  margin-top: 2rem;  
+  height: 15rem;
+  border-top-right-radius: 2rem;
+  }
+
+  .imagens  {
+
+    display: flex;
+  
+
+
+    
+    
+  }
+
+  .historia h2 {
+    margin-left: 11rem;
+    margin-top: 1rem;
+}
+
+.turismo h2 {
+
+margin-left: 13rem;
+margin-top: 1rem;
+}
+
+.cultura h2 {
+
+  margin-left: 14rem;
+  margin-top: 1rem;
+ 
+}
+
+.imagens h3 {
+ text-align: center;
+
+}
+.historia h3 {
+  margin-left: 3rem;
+}
+
+.turismo h3 {
+
+  margin-left: 6rem;
+}
+
+.cultura h3 {
+  margin-left: 8rem;
+}
+ 
+
+
+
+  
